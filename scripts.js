@@ -1,26 +1,33 @@
-console.log(user)
-var user = "Rodrigo"
+// case-sensitive
+let username = "rodrigo"
+let userName = "joao"
 
-// Hoisting
-// var user
-// console.log(user)
+console.log(username)
+console.log(userName)
 
-// Escopo global.
-var email = "joao@email.com"
+// Podemos
+let $email = "rodrigo@email.com"
+let _email = "joao@email.com"
+let user_email = "user@email.com"
 
-{
-  // Escopo de bloco.
-  console.log(email)
-}
+let Ação = "Cadastrar"
 
-{
-  var age = 18
-}
+console.log($email)
+console.log(_email)
+console.log(user_email)
 
-console.log(age)
+console.log(Ação)
 
-let address = "Rua X"
-{
-  address = "Rua Y"
-  console.log(address)
-}
+// Não Podemos
+// let 1user = "ana"
+// let product name = "Teclado"
+
+// Recomendação camelCase
+let productName = "Teclado"
+let firstName = "Rodrigo"
+let lastName = "Gonçalves"
+
+// Recomendação snake_case
+let product_name = "Teclado"
+let first_name = "Rodrigo"
+let last_name = "Gonçalves"
