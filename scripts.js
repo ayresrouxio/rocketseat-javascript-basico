@@ -1,10 +1,7 @@
-// Declara uma variável sem valor.
-let user
-console.log(user)
+// Uma constante cria uma variável cujo valor é fixo (não pode ser alterado)
+const number = 42
+console.log(number)
 
-// Declara uma variável com valor.
-let email = "rodrigo@email.com"
-console.log(email)
-
-email = "joao@email.com"
-console.log(email)
+// Irá gerar um erro porque o valor não pode ser alterado.
+number = 55
+console.log(number)
