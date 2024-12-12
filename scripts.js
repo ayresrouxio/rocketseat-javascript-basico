@@ -1,8 +1,12 @@
-// Sintaxe correta.
-console.log("Olá Rodrigo!")
+// Declara variável sem valor.
+var user
 
-// Sintaxe incorreta.
-// con.sole.log("Olá Rodrigo!")
+console.log(user)
 
-// No javascript ponto e vírgula é opcional.
-console.log("Olá João!")
+// Declara uma variável com valor.
+var email = "ayres@email.com"
+console.log(email)
+
+// Substitui o valor da variável.
+email = "joao@email.com"
+console.log(email)
