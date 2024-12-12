@@ -13,3 +13,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Escopo;
 - Hoisting;
 - Boas práticas com nomes de variáveis e funções;
+- Tipos de Dados (`string`, `number`, `boolean`, `undefined` e `null`);
