@@ -1,6 +1,6 @@
 # Javascript Básico
 
-## Sobre o Módulo
+## Sobre o Módulo:
 
 Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a criação de funções e manipulação do DOM até a depuração de código. Foi aprendido sobre escopo, eventos, expressões regulares e muito mais.
 
