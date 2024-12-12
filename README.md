@@ -6,9 +6,10 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 
 ## Tópicos:
 
-- Como vincular um arquivo javascript com o HTML.
-- Comentários.
-- Sintaxe.
-- Variáveis (`var`, `let` e `const`).
-- Escopo.
-- Hoisting.
+- Como vincular um arquivo javascript com o HTML;
+- Comentários;
+- Sintaxe;
+- Variáveis (`var`, `let` e `const`);
+- Escopo;
+- Hoisting;
+- Boas práticas com nomes de variáveis e funções;
