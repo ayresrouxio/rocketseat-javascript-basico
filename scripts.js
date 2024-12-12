@@ -1,7 +1,26 @@
-// Uma constante cria uma variável cujo valor é fixo (não pode ser alterado)
-const number = 42
-console.log(number)
+console.log(user)
+var user = "Rodrigo"
 
-// Irá gerar um erro porque o valor não pode ser alterado.
-number = 55
-console.log(number)
+// Hoisting
+// var user
+// console.log(user)
+
+// Escopo global.
+var email = "joao@email.com"
+
+{
+  // Escopo de bloco.
+  console.log(email)
+}
+
+{
+  var age = 18
+}
+
+console.log(age)
+
+let address = "Rua X"
+{
+  address = "Rua Y"
+  console.log(address)
+}
