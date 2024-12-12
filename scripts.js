@@ -1,14 +1,10 @@
-/*
-  Quanto uma linguagem de programação é 
-  case-sensitive significa que ela é sensível a
-  letras maiúsculas e minúsculas.
+// Declara uma variável sem valor.
+let user
+console.log(user)
 
-  Por exemplo: "Rodrigo" é considerado diferente de 
-  "rodrigo".
-*/
+// Declara uma variável com valor.
+let email = "rodrigo@email.com"
+console.log(email)
 
-var product = "Teclado Mecânico"
-var Product = "Mouse Gamer"
-
-console.log(product)
-console.log(Product)
+email = "joao@email.com"
+console.log(email)
