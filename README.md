@@ -20,3 +20,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Operadores de Incremento e Decremento (`--`, `++`, `+=`, `-=`, `*=`, `/=`, `%=` e `**=`);
 - Ordem de Precedência / Grouping Operator;
 - Operadores de Comparação (`>`, `<`, `>=`, `<=`, `==`, `===`, `!=`, `!==`)
+- Operadores Lógicos (`&&`, `||` e `!`);
