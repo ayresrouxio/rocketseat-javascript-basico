@@ -1,8 +1,16 @@
-const input = document.querySelector("input")
+window.addEventListener("load", () => {
+  console.log("A página foi carregada!")
+})
 
-// Atualizar um atributo.
-// input.setAttribute("disabled", true)
-// input.setAttribute("type", "file")
+addEventListener("click", (event) => {
+  event.preventDefault()
 
-// Remover um atributo.
-// input.removeAttribute("id")
+  // Retorna todas as informações do evento.
+  // console.log(event)
+
+  // Retorna o elemento clicado.
+  console.log(event.target)
+
+  // Retorna o textContent do elemento clicado.
+  console.log(event.target.textContent)
+})
