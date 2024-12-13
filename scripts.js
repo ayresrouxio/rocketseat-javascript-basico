@@ -1,11 +1,9 @@
-let email = true
-let password = false
+// Operador condicional ternário
 
-// AND (E) &&
-console.log(email && password)
+let age = 21
 
-// OR (OU) ||
-console.log(email || password)
-
-// NOT (Negação) !
-console.log(!password)
+console.log(
+  age >= 18 // condição
+    ? "Você pode dirigir." // se verdadeiro
+    : "Você não pode dirigir." // se falso
+)
