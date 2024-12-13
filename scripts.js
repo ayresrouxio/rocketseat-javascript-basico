@@ -1,6 +1,6 @@
-// Boolean
-console.log(true)
-console.log(false)
+// undefined (indefinido) e null
+let emptiness
+console.log("O valor é: ", emptiness)
 
-let isLoading = true
-console.log(typeof isLoading)
+let empty = null
+console.log("O valor é: ", empty)
