@@ -1,29 +1,12 @@
-/*
-  FALSY quando um valor é considerado false e TRUTHY quando
-  é considerado verdadeiro em contextos onde um boolean é obrigatório
-  (condicionais e loops).
-*/
+// If (SE)
 
-console.log("Exemplos de Falsy")
+let hour = 11
 
-console.log(false ? "Verdadeiro" : "Falso")
-console.log(0 ? "Verdadeiro" : "Falso")
-console.log(-0 ? "Verdadeiro" : "Falso")
-console.log("" ? "Verdadeiro" : "Falso")
-console.log(null ? "Verdadeiro" : "Falso")
-console.log(undefined ? "Verdadeiro" : "Falso")
-console.log(NaN ? "Verdadeiro" : "Falso")
+/*if (hour <= 12) {
+  console.log("Bom dia")
+  console.log("Seja bem-vindo!")
+}*/
 
-console.log("Exemplos de Truthy")
+if (hour <= 12) console.log("Bom dia!")
 
-console.log(true ? "Verdadeiro" : "Falso")
-console.log({} ? "Verdadeiro" : "Falso")
-console.log([] ? "Verdadeiro" : "Falso")
-console.log(1 ? "Verdadeiro" : "Falso")
-console.log(3.2 ? "Verdadeiro" : "Falso")
-console.log("A" ? "Verdadeiro" : "Falso")
-console.log(" " ? "Verdadeiro" : "Falso")
-console.log("false" ? "Verdadeiro" : "Falso")
-console.log(-1 ? "Verdadeiro" : "Falso")
-console.log(Infinity ? "Verdadeiro" : "Falso")
-console.log(-Infinity ? "Verdadeiro" : "Falso")
+console.log("Seja bem-vindo!")
