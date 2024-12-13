@@ -1,25 +1,24 @@
-// Callback Function: É uma função passada para outra função como um argumento
-function execute(taskName, callback) {
-  console.log("Executando a tarefa: ", taskName)
+// Visualizar o conteúdo do document.
+// console.log(document)
 
-  callback()
-}
+// Obter o title da página.
+console.log(document.title)
 
-function callback() {
-  console.log("Tarefa finalizada.")
-}
+// Acessar o elemento pelo ID (seletor ID).
+const guest = document.getElementById("guest-1")
+console.log(guest)
 
-// Passando para a função.
-execute("Download do arquivo...", callback)
+// Mostra as propriedades do objeto.
+console.dir(guest)
 
-// Criando a função no próprio parâmetro (função anônima).
-execute("Upload do arquivo...", function () {
-  console.log("Função de callback com uma função anônima...")
-})
+// Acessar elemento com class (seletor class).
+const guestsByClass = document.getElementsByClassName("guest")
+console.log(guestsByClass)
 
-// Utilizando Arrow Function.
-execute("Excluindo arquivo...", () => {
-  console.log("Arquivo excluído!")
-})
+// Exibir o primeiro elemento da lista.
+console.log(guestsByClass.item(0))
+console.log(guestsByClass[1])
 
-execute("Salvando arquivo...", () => console.log("Arquivo Salvo!"))
+// Selecionar lista de elementos pela tag.
+const guestsByTag = document.getElementsByTagName("li")
+console.log(guestsByTag)
