@@ -1,15 +1,29 @@
-let balance = 500
-let payment = 120
+let value
 
-// > Maior que
-console.log(balance > payment)
+// Operador atribuição
+value = 1
+console.log(value)
 
-// < Menor que
-console.log(balance < payment)
+// Incremento
+value += 2
+console.log(value)
 
-// >= Maior ou igual a
-balance = 120
-console.log(balance >= payment)
+// Decremento
+value -= 2
+console.log(value)
 
-// <= Menor ou igual a
-console.log(balance <= payment)
+// Multiplicar
+value *= 3
+console.log(value)
+
+// Divisão
+value /= 2
+console.log(value)
+
+// Resto da divisão
+value %= 2
+console.log(value)
+
+// Potência
+value **= 2
+console.log(value)
