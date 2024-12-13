@@ -1,21 +1,15 @@
-// If Else If
+let option = 1
 
-let hour = 11
-
-/*
-if (hour <= 12) {
-  console.log("Bom dia")
-} else if (hour > 18) {
-  console.log("Boa noite")
-} else if (hour > 12) {
-  console.log("Boa tarde")
-}
-*/
-
-if (hour <= 12) {
-  console.log("Bom dia")
-} else if (hour > 12 && hour <= 18) {
-  console.log("Boa tarde")
-} else {
-  console.log("Boa noite")
+switch (option) {
+  case 1:
+    console.log("Consultar pedido")
+    break
+  case 2:
+    console.log("Falar com atendente")
+    break
+  case 3:
+    console.log("Cancelar pedido")
+    break
+  default:
+    console.log("Opção inválida")
 }
