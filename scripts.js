@@ -1,15 +1,16 @@
-const input = document.querySelector("#name")
+const guests = document.querySelector("ul")
 
-// Adiciona a classe.
-// input.classList.add("input-error")
+const newGuest = document.createElement("li")
+newGuest.classList.add("guest")
 
-// Remove a classe.
-// input.classList.remove("input-error")
+const guestName = document.createElement("span")
 
-// Adiciona se não tiver e remove se tiver.
-// input.classList.toggle("input-error")
+guestName.textContent = "Diego"
 
-const button = document.querySelector("button")
+// Adiciona após o último filho.
+// newGuest.append(guestName)
 
-// Modificar as propriedades css do elemento.
-button.style.backgroundColor = "purple"
+// É mais simples que o append e aceita apenas um argumento.
+newGuest.appendChild(guestName)
+
+guests.prepend(newGuest)
