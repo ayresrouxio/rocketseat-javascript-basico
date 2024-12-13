@@ -16,3 +16,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Tipos de Dados (`string`, `number`, `boolean`, `undefined` e `null`);
 - Template literals;
 - Conversão e Coerção de Tipos;
+- Operadores Aritméticos (`+`, `-`, `*`, `/`, `%` e `**`);
