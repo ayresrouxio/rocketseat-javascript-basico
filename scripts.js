@@ -1,12 +1,13 @@
-// Função anônima (função que não possui nome)
-const showMessage1 = function () {
-  return "Olá, Rodrigo!"
+// Arrow Function (função de seta).
+const showMessage1 = () => {
+  console.log("Olá")
 }
 
-console.log(showMessage1())
+console.log(showMessage1)
+showMessage1()
 
-const showMessage2 = function (message, name) {
-  return message + name
+const showMessage2 = (username, email) => {
+  console.log(`Olá ${username} seu e-mail é: ${email}`)
 }
 
-console.log(showMessage2("Olá ", "João"))
+showMessage2("Maria", "maria@email.com")
