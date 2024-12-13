@@ -1,13 +1,25 @@
-// Arrow Function (função de seta).
-const showMessage1 = () => {
-  console.log("Olá")
+// Callback Function: É uma função passada para outra função como um argumento
+function execute(taskName, callback) {
+  console.log("Executando a tarefa: ", taskName)
+
+  callback()
 }
 
-console.log(showMessage1)
-showMessage1()
-
-const showMessage2 = (username, email) => {
-  console.log(`Olá ${username} seu e-mail é: ${email}`)
+function callback() {
+  console.log("Tarefa finalizada.")
 }
 
-showMessage2("Maria", "maria@email.com")
+// Passando para a função.
+execute("Download do arquivo...", callback)
+
+// Criando a função no próprio parâmetro (função anônima).
+execute("Upload do arquivo...", function () {
+  console.log("Função de callback com uma função anônima...")
+})
+
+// Utilizando Arrow Function.
+execute("Excluindo arquivo...", () => {
+  console.log("Arquivo excluído!")
+})
+
+execute("Salvando arquivo...", () => console.log("Arquivo Salvo!"))
