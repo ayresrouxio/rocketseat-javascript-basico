@@ -1,18 +1,12 @@
-/*
-  Comentário de documentação em Javascript (sintaxe do JSDoc).
-  O JSDoc é uma padrão para incorporar documentação no código-fonte a
-  partir desses comentários.
-*/
-
-/**
- * Authenticates the user.
- * @param {String} email user email.
- * @param {String} password more than 6 characters.
- * @returns {Number} user id.
- */
-function signIn(email, password) {
-  // Fluxo de autenticação do usuário.
-  return 7
+// Função anônima (função que não possui nome)
+const showMessage1 = function () {
+  return "Olá, Rodrigo!"
 }
 
-signIn("rodrigo@email.com", "2134567")
+console.log(showMessage1())
+
+const showMessage2 = function (message, name) {
+  return message + name
+}
+
+console.log(showMessage2("Olá ", "João"))
