@@ -1,16 +1,12 @@
 let one = 1
 let two = 2
 
-// == igual a
-console.log("Igual a:")
+// === Estritamente igual a (tipo e valor)
+console.log(one === 1)
+console.log(one === "1")
 
-console.log(one == two)
-console.log(one == 1)
-console.log(one == "1")
-
-// != diferente de
-console.log("Diferente de:")
-
-console.log(one != two)
-console.log(one != 1)
-console.log(one != "1")
+// !== Estritamente diferente de (tipo e valor)
+console.log(one !== two)
+console.log(one !== 1)
+console.log(two !== 2)
+console.log(two !== "2")
