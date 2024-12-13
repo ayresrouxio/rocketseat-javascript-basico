@@ -26,3 +26,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Tratamento de Exceções (`try`, `catch` e `finally`);
 - Funções;
 - Comentário de Documentação (`JSDoc`);
+- Trabalhando com DOM;
