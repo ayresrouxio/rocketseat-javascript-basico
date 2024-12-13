@@ -24,3 +24,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Operador Ternário;
 - Estrutura de Condição (`if`, `else if`, `else` e `switch`);
 - Tratamento de Exceções (`try`, `catch` e `finally`);
+- Funções;
