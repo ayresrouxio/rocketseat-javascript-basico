@@ -1,9 +1,16 @@
-// Grouping Operator
-let total1 = 2 + 3 * 4
-console.log(total1)
+let one = 1
+let two = 2
 
-let total2 = (2 + 3) * 4
-console.log(total2)
+// == igual a
+console.log("Igual a:")
 
-let average = (9.5 + 7 + 5) / 3
-console.log(average)
+console.log(one == two)
+console.log(one == 1)
+console.log(one == "1")
+
+// != diferente de
+console.log("Diferente de:")
+
+console.log(one != two)
+console.log(one != 1)
+console.log(one != "1")
