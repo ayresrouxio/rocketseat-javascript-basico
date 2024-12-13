@@ -1,25 +1,9 @@
-let number = 10
+// Grouping Operator
+let total1 = 2 + 3 * 4
+console.log(total1)
 
-// Incremento
-//number = number + 1
-number++
+let total2 = (2 + 3) * 4
+console.log(total2)
 
-// Incrementa após (por isso não mostra no console)
-console.log(number++)
-console.log(number)
-
-// Incrementa antes
-console.log(++number)
-
-// Decremento
-console.log("Decremento após: ", number--)
-console.log(number)
-console.log("Decremento antes: ", --number)
-
-// Incrementar  mais de um
-number += 10
-console.log(number)
-
-// Decrementar mais de um
-number -= 10
-console.log(number)
+let average = (9.5 + 7 + 5) / 3
+console.log(average)
