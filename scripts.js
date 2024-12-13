@@ -1,24 +1,6 @@
-/*try {
-  // Tenta executar algo.
-  console.log(result)
-} catch (error) {
-  // Captura o erro para tratar.
-  console.log(
-    "Não foi possível executar seu pedido. Tente novamente mais tarde!"
-  )
-  console.log(error)
-} finally {
-  console.log("Fim")
-}*/
-
-let result = 0
-
-try {
-  if (result === 0) {
-    throw new Error("O valor é igual a zero.")
-  }
-} catch (error) {
-  console.log(error)
-} finally {
-  console.log("Fim")
+function message() {
+  console.log("Olá. É bom ter você aqui!")
 }
+
+message()
+message()
