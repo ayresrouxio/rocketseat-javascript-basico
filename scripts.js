@@ -1,10 +1,9 @@
-// Acessa o elemento pelo seletor ID.
 const guest = document.querySelector("#guest-1")
-console.log(guest)
 
-// Acessa o elemento pelo seletor CLASS.
-// const guests = document.querySelector(".guest")
+// Retorna o conteúdo como texto.
+// console.log(guest.textContent)
+// guest.textContent = "Maria"
 
-// Retorna todos os elementos encontrados pela query.
-const guests = document.querySelectorAll(".guest")
-console.log(guests)
+console.log(guest.textContent) // Retorna o conteúdo visível e oculto.
+console.log(guest.innerText) // Retorna somente o conteúdo visível.
+console.log(guest.innerHTML) // Retorna o HTML como texto.
