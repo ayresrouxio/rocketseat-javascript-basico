@@ -17,3 +17,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Template literals;
 - Conversão e Coerção de Tipos;
 - Operadores Aritméticos (`+`, `-`, `*`, `/`, `%` e `**`);
+- Operadores de Incremento e Decremento (`--`, `++`, `+=`, `-=`, `*=`, `/=`, `%=` e `**=`);
