@@ -1,14 +1,25 @@
-// Operadores Aritméticos
-console.log("Soma: ", 12 + 2)
+let number = 10
 
-console.log("Concatenação: ", "12" + "8")
+// Incremento
+//number = number + 1
+number++
 
-console.log("Subtração: ", 12 - 9)
+// Incrementa após (por isso não mostra no console)
+console.log(number++)
+console.log(number)
 
-console.log("Multiplicação: ", 3 * 8)
+// Incrementa antes
+console.log(++number)
 
-console.log("Divisão: ", 12 / 3)
+// Decremento
+console.log("Decremento após: ", number--)
+console.log(number)
+console.log("Decremento antes: ", --number)
 
-console.log("Resto da divisão: ", 12 % 5)
+// Incrementar  mais de um
+number += 10
+console.log(number)
 
-console.log("Exponencial: ", 3 ** 3)
+// Decrementar mais de um
+number -= 10
+console.log(number)
