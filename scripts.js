@@ -1,9 +1,15 @@
-function sum(a, b) {
-  let result = a + b
-  return result
+showMessage("Olá, Rodrigo!")
+
+function showMessage(message) {
+  console.log(message)
+  endLine()
+
+  function endLine() {
+    console.log("----------------")
+  }
 }
 
-let response = sum(7, 8)
-console.log(response)
+showMessage("Tudo bem?")
 
-console.log(sum(5, 6))
+// Não existe nesse escopo
+endLine()
