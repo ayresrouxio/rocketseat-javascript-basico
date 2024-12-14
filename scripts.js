@@ -1,16 +1,18 @@
-window.addEventListener("load", () => {
-  console.log("A página foi carregada!")
+const ul = document.querySelector("ul")
+
+ul.addEventListener("scroll", () => {
+  if (ul.scrollTop > 300) {
+    // console.log("Fim da lista")
+    ul.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  }
 })
 
-addEventListener("click", (event) => {
+const button = document.querySelector("button")
+button.addEventListener("click", (event) => {
   event.preventDefault()
 
-  // Retorna todas as informações do evento.
-  // console.log(event)
-
-  // Retorna o elemento clicado.
-  console.log(event.target)
-
-  // Retorna o textContent do elemento clicado.
-  console.log(event.target.textContent)
+  console.log("clicou!")
 })
