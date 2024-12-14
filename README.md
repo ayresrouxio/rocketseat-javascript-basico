@@ -27,3 +27,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Funções;
 - Comentário de Documentação (`JSDoc`);
 - Trabalhando com DOM;
+- Trabalhando com Eventos na DOM;
