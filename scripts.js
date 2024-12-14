@@ -1,17 +1,32 @@
 const input = document.querySelector("input")
+const form = document.querySelector("form")
 
-// Keydown - quando uma tecla é pressionada (captura tudo, incluindo ctrl, shift, etc.)
-/* input.addEventListener("keydown", (event) => {
-  console.log(event.key)
-}) */
+/*
+input.addEventListener("input", () => {
+  const value = input.value
+  const regex = /\D+/g
 
-// Keypress - quando uma tecla do tipo caractere é pressionada (letras, números, pontos, etc.)
-input.addEventListener("keypress", (event) => {
-  console.log(event.key)
+  // Retorna o padrão encontrado na string.
+  // console.log(value.match(regex))
+
+  // Testa se atende o padrão
+  // const isValid = regex.test(value)
+  // console.log(isValid)
 })
+*/
 
-input.onchange = () => inputChange()
+form.addEventListener("submit", (event) => {
+  event.preventDefault()
 
-function inputChange() {
-  console.log("O input mudou")
-}
+  const value = input.value
+  const regex = /\D+/g
+
+  if (regex.test(value)) {
+    console.log(value)
+  } else {
+    alert("Valor inválido. Digite corretamente!")
+  }
+
+  // const value = input.value.replace(regex, "")
+  // console.log(value)
+})
