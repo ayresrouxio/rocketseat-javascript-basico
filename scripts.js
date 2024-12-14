@@ -1,21 +1,17 @@
-const form = document.querySelector("form")
+const input = document.querySelector("input")
 
-form.onsubmit = (event) => {
-  event.preventDefault()
-  console.log("Você fez submit no formulário #1")
-}
+// Keydown - quando uma tecla é pressionada (captura tudo, incluindo ctrl, shift, etc.)
+/* input.addEventListener("keydown", (event) => {
+  console.log(event.key)
+}) */
 
-form.onsubmit = (event) => {
-  event.preventDefault()
-  console.log("Você fez submit no formulário #2")
-}
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault()
-  console.log("Você fez submit no formulário #3")
+// Keypress - quando uma tecla do tipo caractere é pressionada (letras, números, pontos, etc.)
+input.addEventListener("keypress", (event) => {
+  console.log(event.key)
 })
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault()
-  console.log("Você fez submit no formulário #4")
-})
+input.onchange = () => inputChange()
+
+function inputChange() {
+  console.log("O input mudou")
+}
