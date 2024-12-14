@@ -29,3 +29,4 @@ Neste módulo foi explorado os fundamentos essenciais do JavaScript, desde a cri
 - Trabalhando com DOM;
 - Trabalhando com Eventos na DOM;
 - Expressões Regulares;
+- Depuração de Código;
