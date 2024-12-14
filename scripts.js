@@ -1,18 +1,21 @@
-const ul = document.querySelector("ul")
+const form = document.querySelector("form")
 
-ul.addEventListener("scroll", () => {
-  if (ul.scrollTop > 300) {
-    // console.log("Fim da lista")
-    ul.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    })
-  }
+form.onsubmit = (event) => {
+  event.preventDefault()
+  console.log("Você fez submit no formulário #1")
+}
+
+form.onsubmit = (event) => {
+  event.preventDefault()
+  console.log("Você fez submit no formulário #2")
+}
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault()
+  console.log("Você fez submit no formulário #3")
 })
 
-const button = document.querySelector("button")
-button.addEventListener("click", (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault()
-
-  console.log("clicou!")
+  console.log("Você fez submit no formulário #4")
 })
